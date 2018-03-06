@@ -41,7 +41,7 @@ public class DomeCamera : MonoBehaviour {
             item.farClipPlane = Target.farClipPlane;
             item.nearClipPlane = Target.nearClipPlane;
             item.useOcclusionCulling = Target.useOcclusionCulling;
-            item.allowHDR = Target.allowHDR;
+            item.hdr = Target.hdr;
             item.backgroundColor = Target.backgroundColor;
         }
 
